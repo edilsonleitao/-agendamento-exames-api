@@ -6,6 +6,7 @@ const routes = Router();
 
 routes.get('/exame', ExameController.index);
 routes.get('/exame/:id', ExameController.show);
+routes.get('/exameCliente', ExameController.showCliente);
 routes.post('/exame', ExameController.store);
 routes.put('/exame/:id', ExameController.update);
 routes.delete('/exame/:id', ExameController.destroy);
