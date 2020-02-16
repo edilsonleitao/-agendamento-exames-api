@@ -10,7 +10,7 @@ const ExameSchema = new Schema({
     required: true
   },
   cliente: {
-    type: Number,
+    type: String,
     required: true
   },
 
